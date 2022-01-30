@@ -13,6 +13,7 @@ module.exports = {
     path: paths.build,
     filename: '[name].bundle.js',
     publicPath: '/',
+    assetModuleFilename: 'assets/[name][ext]'
   },
 
   // Customize the webpack build process
